@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pombinhos</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style - v2.css">
+
+    <!-- ... outras coisas que já existem ... -->
+    <script async src="https://tally.so/widgets/embed.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+
+</head>
+
+
+<body>
+    <header >
+        <nav>
+            <div class="nav-left">
+                <div class="nav-left">
+                    <!-- Trocamos o href por um link "vazio" e adicionamos o onclick -->
+                    <a href="javascript:void(0)" onclick="rolarParaCentro('agradecimentos')">Agradecimentos</a>
+                    <a href="javascript:void(0)" onclick="rolarParaCentro('informações')">Informações</a>
+                </div>
+
+            </div>
+
+            <a id="logo_principal" href="javascript:void(0)" onclick="rolarParaCentro('inicio')">S&F 06.06.26</a>
+            
+            <div class="nav-right">
+                <a href="javascript:void(0)" onclick="rolarParaCentro('confirmacao')">Confirmar Presença</a>
+            </div>
+        </nav>
+        <div id="inicio" class="hero">
+            <h2>Com a benção de seus pais</h2>
+            <h3>Lee Siu Eng Wu<br>Wu Chu Schien</h3>
+            <div>&</div>
+            <h3>Lilian Fam Mizuno<br>Sérgio Shigueo Mizuno</h3>
+            <h1>Sofia & Felipe</h1>
+
+        </div>
+    </header>
+    <main>
+        <div class="main-text">
+            <div id="agradecimentos" class="container">
+                <section class="agradecimentos">
+                    <h4>Agradecimentos</h4>
+
+                    <span>❤</span>                    
+                    
+                    <article class="texto">
+                        
+                        <p>É com grande alegria que te convidamos para celebrar esta aliança perante Deus, nossa família e amigos.</p>
+                        <p>Que este seja um momento de benção, união e alegria compartilhada.</p>
+                        
+                        <p>Ficaremos honrados com a sua presença.</p>
+                        <blockquote>"Acima de tudo, porém, revistam-se do amor, que é o elo perfeito."<br> Colossenses 3:14</blockquote>
+                        
+                    </article>
+            
+                    
+                </section>
+                
+                <div class="imagens-laterais">
+                    <img src="Maos_dadas_quente.JPG" alt="">
+                </div>
+                
+            </div>
+            
+            <hr>
+
+            <section>
+                <h4>Informações</h4>
+                <div id="informações" class="localizacao">
+
+                    <img class="andando" src="Andando_preto_branco.jpg" alt="Lindos">
+                    
+                    <div class="coluna-direita">
+
+                        <img class="museu" src="Museu.jpg" alt="Museu do Ipiranga">
+                        <address>
+                        <h5>Local</h5>
+                        <p class="espaco">Espaço Vdara</p>
+                            <address>Rua das Araribás, 31<br> Bairro dos Casa - São Bernardo do Campo</address>
+                            <a target="_blank"  href="https://maps.app.goo.gl/huvZtUpTVJZX7rL56">Mapa</a>
+                        </address>
+                    </div>
+                    
+                </div>
+                </section>
+                
+                <section>
+
+                    <div class="traje">
+                        <h5>Traje</h5>
+                        <p>
+                            Esporte Fino
+                        </p>
+                    </div>
+                    
+                </section>
+
+            <hr>
+            <section>
+                <h4>Presentes</h4>
+                <div class="presentes">
+
+                    <!--<div class="imagens">
+                        
+                        <img src="Atibaia.JPG" alt="Mimi">
+                        <img src="Agradecimentos So.jpg" alt="Soso">
+                    </div> -->
+
+                    <p>Falar sobre presentes nunca é simples, e queremos tratar esse tema com leveza e respeito</p>
+                    <br>
+                    <p>Se desejarem nos abençoar com um gesto de carinho, deixamos nossa chave Pix logo abaixo.</p>
+                    <p>Mas, por favor, sintam-se livres: ofereçam apenas o que for confortável e fizer sentido para vocês.</p>
+                    <p>Agradecemos de coração por nos abençoar</p>
+
+                    <div class="pix-container">
+                        <span id="chave-pix">mizuno.pix@gmail.com</span>
+                        <button onclick="copiarPix()" id="btn-copiar" title="Copiar chave">
+                            <i class="fas fa-copy"></i>
+                        </button>
+
+                    </div>
+
+                    
+                </div>
+            </section>
+            <hr>
+            <h4>Confirmação de presença</h4>
+            <section id="confirmacao">
+                <div class="formulario">
+                    <form id="meu-formulario">
+
+                    <div class="formulario">
+                        <iframe data-tally-src="https://tally.so/embed/lbyr5X?hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="662" frameborder="0" marginheight="0" marginwidth="0" title="Convidados"></iframe>
+                    </div>
+
+
+                    </form>
+
+
+                </div>
+
+                <div class="muscles">
+                    <img src="Muscles.jpg" alt="Muscles">
+
+                </div>
+                    
+            </section>
+           
+            
+        </div>
+
+        
+    </main>
+    <footer>
+
+    </footer>
+
+<script>
+const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 100) {
+        nav.classList.add("scrolled");
+    } else {
+        nav.classList.remove("scrolled");
+    }
+});
+
+
+const images = document.querySelectorAll("img");
+const titulos = document.querySelectorAll("h4");
+const textos = document.querySelectorAll("article");
+const citacoes = document.querySelectorAll("blockquote");
+
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("scrolled");
+        } else {
+            entry.target.classList.remove("scrolled");
+        }
+    });
+}, {
+    root: null,
+    rootMargin: "0% 0px -15% 0px",
+    threshold: 0
+});
+
+images.forEach(img => {
+    observer.observe(img);
+    
+});
+
+titulos.forEach(h4 => {
+    observer.observe(h4);
+});
+
+textos.forEach(article => {
+    observer.observe(article);
+});
+
+citacoes.forEach(blockquote => {
+    observer.observe(blockquote);
+});
+
+</script>
+
+<script>
+function rolarParaCentro(id) {
+    const elemento = document.getElementById(id);
+    elemento.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function gerarCampos() {
+    const seletor = document.getElementById('qtd-acompanhantes');
+    const container = document.getElementById('container-acompanhantes');
+    const quantidade = seletor.value;
+
+    // Limpa o que tiver lá dentro antes de criar novos
+    container.innerHTML = '';
+
+    for (let i = 1; i <= quantidade; i++) {
+        // Cria uma nova label
+        const label = document.createElement('label');
+        label.innerText = `Nome do acompanhante ${i}:`;
+        
+        // Cria o input
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.name = `acompanhante_${i}`;
+        input.placeholder = `Nome completo do ${i}º convidado`;
+        input.required = true; // Torna obrigatório
+
+        // Adiciona ao container
+        container.appendChild(label);
+        container.appendChild(input);
+    }
+
+}
+</script>
+
+    <!-- ... final do seu site ... -->
+<script>
+    var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
+</script>
+
+<script>
+
+function copiarPix() {
+    const textoChave = document.getElementById('chave-pix').innerText;
+    const btn = document.getElementById('btn-copiar');
+    const icone = btn.querySelector('i');
+
+    navigator.clipboard.writeText(textoChave).then(() => {
+        // Troca para o ícone de check
+        icone.classList.replace('fa-copy', 'fa-check');
+        btn.style.color = "#28a745"; // Opcional: muda a cor para verde
+
+        setTimeout(() => {
+            // Volta para o ícone de cópia original
+            icone.classList.replace('fa-check', 'fa-copy');
+            btn.style.color = ""; 
+        }, 2000);
+    });
+}
+
+</script>
+
+</body>
+</html>
+
+
+</body>
+</html>

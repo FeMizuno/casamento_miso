@@ -1,0 +1,68 @@
+
+Header
+    Cabeçalho
+    - S&F 06.06.26
+
+    Menu
+    - RSVP
+    - Presentes
+    - Informações
+
+Main
+    Capa
+    - Foto
+    Com a benção de seus pais
+    - Lee Siu Eng
+    - Wu Chu Hsien
+    - Sergio Shigueo Mizuno
+    - Lilian Fam Mizuno
+
+    Sofia e Felipe
+    06 de junho de 2026
+
+    Texto de inicio
+
+    É com grande alegria que te convidamos para celebrarmos esta aliança perante Deus, nossa família e amigos.
+    Que este seja um momento de benção, união e alegria compartilhada.
+
+    Ficaremos honrados com a sua presença
+
+    "Acima de tudo, porém, revistam-se do amor, que é o elo perfeito." Colossenses 3:14
+
+    Informações
+    - Local: Espaço Vdara
+    Rua das Araribás, 31 Bairro dos Casa, São Bernardo do Campo
+
+    - Traje: Esporte Fino
+
+    Boas práticas
+     - Confirme sua presença
+     - Seja pontual, não se atrase
+     - Aproveite bastante o momento
+     - Coloque o seu celular no silencioso
+     - Aguarde a liberação dos doces
+     - Não saia sem se despedir dos noivos
+
+    Presentes
+        Falar sobre presentes nunca é simples, e queremos tratar esse tema com leveza e respeito
+
+        Se desejarem nos abençoar com um gesto de carinho, deixamos nossa chave Pix logo abaixo.
+        Mas, por favor, sintam-se livres: ofereçam apenas o que for confortável e fizer sentido para vocês.
+
+    
+    Confirme sua presença
+        Caixas com os titulos
+        - Nome
+        - Quantas pessoas vão com você 
+        - Nome dos acompanhantes
+        - Telefone
+        - Botao enviar
+
+Footer
+    Alguma coisa no final kk
+
+
+
+
+
+
