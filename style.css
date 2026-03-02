@@ -831,8 +831,8 @@ address > a {
     h2.mobile {
         font-family: var(--font-poppins);
         font-weight: 500;
-        font-style: italic;
-        font-size: 18px;
+        font-style: normal;
+        font-size: 16px;
         padding-bottom: 0;
         margin-top: 0;
         margin-bottom: 20px;
@@ -1512,7 +1512,7 @@ address > a {
     #presentes p{
         font-size: 14px;
         line-height: 20px;
-        padding: 10px 30px 10px 30px;
+        padding: 5px 30px 5px 30px;
         text-align: center;
         
     }
