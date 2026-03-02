@@ -837,7 +837,8 @@ address > a {
         margin-top: 0;
         margin-bottom: 20px;
         margin-left: 30px;
-        justify-items: left;
+        justify-content: center;
+        justify-items: center;
         display: flex;
         align-items: flex-start;
         gap: 10px;
@@ -876,6 +877,7 @@ address > a {
         display: flex;
         align-items: center;
         gap: 10px;
+        filter: brightness(0.9);
     }
 
     
@@ -883,6 +885,7 @@ address > a {
         display: flex;
         align-items: center;
         gap: 10px;
+        filter: brightness(0.9);
     }
 
     #nomes-wu p,
@@ -922,7 +925,8 @@ address > a {
 
     #menu {
         flex: none;
-        margin-left: 30px;
+        margin-left: 0px;
+        line-height: 5px;
     }
 
     aside.mobile {
@@ -931,13 +935,15 @@ address > a {
         color: #555;
         font-size: 10px;
         flex: none;
+        line-height: 5px;
     }
 
     .menu-legenda-mobile {
         display: flex;
-        align-items: baseline;
-        margin-bottom: 0px;
-        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 0px;
     }
 
     .menu-wrapper {
@@ -1073,7 +1079,7 @@ address > a {
     #foto-mimisoso {
         display: block;
         text-align: left;
-        margin-left: 30px;
+        margin-left: 0px;
         margin-bottom: 50px;
         
     }
@@ -1085,9 +1091,10 @@ address > a {
     }
 
     #nos {
+        flex-direction: column;
         display: flex;
-        gap: 2px;
-        margin: 0 10px;
+        gap: 12px;
+        margin: 0 50px;
         max-width: 100%; 
         
     }
@@ -1099,16 +1106,17 @@ address > a {
         align-items: end;
         flex: 1;
         margin: 0;
-        gap: 5px;
+        gap: 25px;
         flex-direction: column;
         margin-left: 0px;
+        background-color: #3a353013;
         
     }
     
 
     #Sofia-fotos,
     #Mizuno-fotos {
-    
+        display: flex;
         object-fit: cover;
         flex: 0;
         margin: 0;
@@ -1116,7 +1124,7 @@ address > a {
     
     #Sofia-fotos img,
     #Mizuno-fotos img {
-    filter: brightness(1);
+    filter: brightness(0.8);
     margin: 0px;   
     border-radius: 0px;
     width: 100%;  
@@ -1125,15 +1133,15 @@ address > a {
 
     #Sofia-texto, 
     #Mizuno-texto  {
-        max-width: 70%;
+        max-width: 80%;
         align-items: end;
-        
+        /* color: white; */
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         margin-top: 0%;
         margin-bottom: 5px;
-        margin-right: 0px;
+        margin-right: 20px;
         
     } 
 
@@ -1153,7 +1161,7 @@ address > a {
         margin: 0;
         margin-bottom: 0px;
         margin-right: 5px;
-        
+        /* color: white; */
     }
 
     p > strong {
@@ -1456,6 +1464,7 @@ address > a {
     #dress-code {
         margin: 10px 30px 0 30px;
         display: flex;
+        justify-content: center;
         gap: 2px;
         filter: brightness(0.8);
     }
@@ -1493,17 +1502,26 @@ address > a {
         text-align: center;
     }
 
+    #presentes {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
 
     #presentes p{
+        font-size: 14px;
         line-height: 20px;
-        padding: 10px 30px 10px;
+        padding: 10px 30px 10px 30px;
+        text-align: center;
+        
     }
 
     .pix-container {
         display: flex;
         align-items: center;
-        justify-content: left;
-        margin-left: 30px;
+        justify-content: center;
+        margin-left: 0;
     }
 
     .pix-container span {
