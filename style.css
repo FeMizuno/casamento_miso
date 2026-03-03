@@ -604,6 +604,7 @@ address > a {
         transform: translateY(0);
     }
     
+
     #versiculo,
     #data {
         font-size: 10px;
@@ -1091,10 +1092,10 @@ address > a {
     }
 
     #nos {
-        flex-direction: column;
+        /* flex-direction: column; */
         display: flex;
-        gap: 12px;
-        margin: 0 50px;
+        gap: 2px;
+        margin: 0 5px;
         max-width: 100%; 
         
     }
@@ -1106,11 +1107,13 @@ address > a {
         align-items: end;
         flex: 1;
         margin: 0;
-        gap: 25px;
+        gap: 15px;
         flex-direction: column;
         margin-left: 0px;
         background-color: #3a353013;
-        
+        /* background-image: url(Mizuno_nos2.jpg);
+        background-blend-mode: multiply;
+        background-size: cover; */
     }
     
 
@@ -1120,17 +1123,20 @@ address > a {
         object-fit: cover;
         flex: 0;
         margin: 0;
+
+        
     }
     
     #Sofia-fotos img,
     #Mizuno-fotos img {
-    filter: brightness(0.8);
-    margin: 0px;   
-    border-radius: 0px;
-    width: 100%;  
-}
+        filter: brightness(0.8);
+        margin: 0px;   
+        border-radius: 0px;
+        width: 100%;  
+        
+        }
 
-
+    
     #Sofia-texto, 
     #Mizuno-texto  {
         max-width: 80%;
@@ -1141,9 +1147,11 @@ address > a {
         flex-direction: column;
         margin-top: 0%;
         margin-bottom: 5px;
-        margin-right: 20px;
+        margin-right: 10px;
         
     } 
+    
+
 
      /* #Mizuno-texto {
         margin-top: 15px;
@@ -1156,7 +1164,7 @@ address > a {
     #Mizuno-titulo {
         font-family: var(--font-poppins);
         color: rgba(0, 0, 0, 0.507);
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 100;
         margin: 0;
         margin-bottom: 0px;
@@ -1180,7 +1188,7 @@ address > a {
     
     #Sofia-sobre,
     #Mizuno-sobre {
-        font-size: 11px;
+        font-size: 10px;
         text-align: end;
         font-family: var(--font-poppins);
         font-style: normal;
